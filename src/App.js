@@ -1,13 +1,19 @@
 import "./App.css";
-import Beers from "./components/Beers";
-import Button from "./components/Button";
-import beersData from "./data";
+/* import Beers from "./components/Beers";
+import Button from "./components/Button"; */
+import Pizzas from "./components/Pizzas";
+/* import beersData from "./data"; */
 
 function App() {
   return (
     <div className="App">
-      <Button />
+      {
+        /*       <Button />
       <Beers data={beersData.cards} />
+ */
+
+        <Pizzas />
+      }
     </div>
   );
 }
